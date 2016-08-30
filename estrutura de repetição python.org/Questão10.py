@@ -1,8 +1,8 @@
-N = eval(input("digite um número:"))
+N = eval(input("digite um nÃºmero:"))
 
-n = eval(input("digite outro número:"))
+n = eval(input("digite outro nÃºmero:"))
 
-print("entre esses dois números estão:")
+print("entre esses dois nÃºmeros estÃ£o:")
 
 for i in range(N+1,n):
 
