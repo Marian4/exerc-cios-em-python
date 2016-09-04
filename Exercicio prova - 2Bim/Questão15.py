@@ -1,4 +1,4 @@
-n = eval(input("exibir a série de Fibonacci até o termo número:"))
+n = eval(input("exibir a sÃ©rie de Fibonacci atÃ© o termo nÃºmero:"))
 
 def fib(n):
 

@@ -1,19 +1,19 @@
-n = eval(input("digite um número:"))
-n2 = eval(input("digite outro número:"))
-n3 = eval(input("digite outro número:"))
-n4 = eval(input("digite outro número:"))
-n5 = eval(input("digite outro número:"))
-n6 = eval(input("digite outro número:"))
-n7 = eval(input("digite outro número:"))
-n8 = eval(input("digite outro número:"))
-n9 = eval(input("digite outro número:"))
-n10 = eval(input("digite outro número:"))
+n = eval(input("digite um nÃºmero:"))
+n2 = eval(input("digite outro nÃºmero:"))
+n3 = eval(input("digite outro nÃºmero:"))
+n4 = eval(input("digite outro nÃºmero:"))
+n5 = eval(input("digite outro nÃºmero:"))
+n6 = eval(input("digite outro nÃºmero:"))
+n7 = eval(input("digite outro nÃºmero:"))
+n8 = eval(input("digite outro nÃºmero:"))
+n9 = eval(input("digite outro nÃºmero:"))
+n10 = eval(input("digite outro nÃºmero:"))
 lista = [n,n2,n3,n4,n5,n6,n7,n8,n9,n10]
-print("números pares:")
+print("nÃºmeros pares:")
 for i in range(lista[0],lista[9]+1):
 	if i%2 == 0 :
 		print(i)
-print("números impares:")
+print("nÃºmeros impares:")
 for j in range(lista[0],lista[9]+1):
 	if j%2 == 1 :
 		print(j)
