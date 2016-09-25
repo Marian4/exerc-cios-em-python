@@ -1,14 +1,14 @@
-print("forneça um conjunto com 10 números")
+print("forneÃ§a um conjunto com 10 nÃºmeros")
 
 print()
 
-n1 = eval(input("digite o primeiro número:"))
+n1 = eval(input("digite o primeiro nÃºmero:"))
 
 while n1 > 100 or n1 <= 0:
 
-	print("esse número está fora dos limites impostos!")
+	print("esse nÃºmero estÃ¡ fora dos limites impostos!")
 
-	n1 = eval(input("digite o primeiro número:"))
+	n1 = eval(input("digite o primeiro nÃºmero:"))
 
 maior = n1
 
@@ -16,13 +16,13 @@ menor = n1
 
 for i in range(9):
 
-    n = eval(input("digite o próximo número:"))
+    n = eval(input("digite o prÃ³ximo nÃºmero:"))
 
     while n > 100 or n <= 0:
 
-    	print("esse número está fora dos limites impostos!")
+    	print("esse nÃºmero estÃ¡ fora dos limites impostos!")
 
-    	n = eval(input("digite o próximo número:"))
+    	n = eval(input("digite o prÃ³ximo nÃºmero:"))
 
     if maior < n:
 
@@ -34,14 +34,14 @@ for i in range(9):
 
 print()
 
-print("o maior número é o número",maior)
+print("o maior nÃºmero Ã© o nÃºmero",maior)
 
 print()
 
-print("o menor número é o número",menor)
+print("o menor nÃºmero Ã© o nÃºmero",menor)
 
 soma = maior + menor
 
 print()
 
-print("a soma do menor número com o menor é igual a",soma)
+print("a soma do maior nÃºmero com o menor Ã© igual a",soma)
