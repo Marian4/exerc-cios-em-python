@@ -1,14 +1,14 @@
-N = eval(input("digite um número:"))
+N = eval(input("digite um nÃºmero:"))
 
-n = eval(input("digite outro número:"))
+n = eval(input("digite outro nÃºmero:"))
 
 soma = 0
 
-print("entre esses dois números estão:")
+print("entre esses dois nÃºmeros estÃ£o:")
 
 for i in range(N+1,n):
 
 	print(i)
 	soma = soma + i 
 	soma = soma
-print("a soma desses números é igual a",soma)
+print("a soma desses nÃºmeros Ã© igual a",soma)
