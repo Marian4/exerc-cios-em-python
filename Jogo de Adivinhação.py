@@ -15,7 +15,7 @@ while jogar == 1:
     while resposta!= num:
         if contador == 2:
             print("Aah,você perdeu.O número era",num)
-            jogar = eval(input("(1)Jogar (2)Sair:"))
+            jogar = eval(input("(1)Jogar Novamente (2)Sair:"))
             carregando()
             print()
             break
